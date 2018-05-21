@@ -1,0 +1,36 @@
+.success,
+.error {
+  color: #fefefe;
+  padding: 5px 5px 5px 12px;
+  margin: 5px 0 15px 0;
+  border-radius: 3px;
+}
+
+.success {
+  background: #2ecc71;
+}
+
+.error {
+  background: #e74c3c;
+}
+
+.delete {
+  text-decoration: none;
+}
+
+.delete:hover {
+  color: #e74c3c;
+}
+
+.fade-out {
+  animation: fade-out .5s 2.6s ease-out;
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
